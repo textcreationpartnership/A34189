@@ -1,0 +1,830 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Computatio universalis seu logica rerum being an essay attempting in a geometrical method to demonstrate an universal standard whereby one may judge of the true value of every thing in the world, relatively to the person.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1697</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 26 KB of XML-encoded text transcribed from 9 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A34189</idno>
+            <idno type="STC">Wing C5675</idno>
+            <idno type="STC">ESTC R32508</idno>
+            <idno type="EEBO-CITATION">12706975</idno>
+            <idno type="OCLC">ocm 12706975</idno>
+            <idno type="VID">66055</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A34189)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 66055)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1524:13)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Computatio universalis seu logica rerum being an essay attempting in a geometrical method to demonstrate an universal standard whereby one may judge of the true value of every thing in the world, relatively to the person.</title>
+               </titleStmt>
+               <extent>[3], 13 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed and sold by F. Moxon ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1697.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Imperfect: tightly bound with some loss of print.</note>
+                  <note>Reproduction of original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Philosophy --  England.</term>
+               <term>Utilitarianism --  England.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-07</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-07</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-09</date>
+            <label>Ali Jakobson</label>Sampled and proofread</change>
+         <change>
+            <date>2010-09</date>
+            <label>Ali Jakobson</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:66055:1" rendition="simple:additions"/>
+            <p>Computatio Univerſalis SEU Logica Rerum.</p>
+            <p>BEING An Eſſay attempting in a Geometrical Method, to Demonſtrate an Univer<g ref="char:EOLhyphen"/>ſal Standard, whereby one may judge of the true Value of every thing in the World, relatively to the Per<g ref="char:EOLhyphen"/>ſon.</p>
+            <p>
+               <hi>LONDON,</hi> Printed and Sold by <hi>J. Moxon</hi> at the <hi>Atlas</hi> in <hi>Warwick-Lane,</hi> 1697.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:66055:2"/>
+            <pb facs="tcp:66055:2" rendition="simple:additions"/>
+            <head>TO THE Royal Society.</head>
+            <opener>
+               <salute>Gentlemen,</salute>
+            </opener>
+            <p>I Have made a tryal how ſome few thoughts, re<g ref="char:EOLhyphen"/>lating to the common concerns of the World, would look in a <hi>Geometrical Dreſs,</hi> and take the boldneſs to preſent them to your Honourable Society. I know your readineſs to Encourage all endeavours after uſeful Knowledge, and therefore preſume you will ſhew ſome little favour to this attempt of mine, it may be, ſo far as to recommend it as a hint to others of a more happy Genius, to proſecute this Argument, or alſo a nobler Subject upon ſuch ſort of Principles as theſe, I have no excuſe to make for the meanneſs of my performance, but that I know not that this was ever aim'd at by any Man till now, by</p>
+            <closer>
+               <signed>Your moſt Humble Servant.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:66055:3"/>
+            <div type="part">
+               <head>DEFINITIONS.</head>
+               <p n="1">1 <hi>Def.</hi> BY time or the Age of a Man, I deſire may be underſtood all that part of a Man's Life, which he can employ as he himſelf judges convenient, and therefore, af<g ref="char:EOLhyphen"/>ter he is come to the uſe of Reaſon.</p>
+               <p n="2">2 <hi>Def.</hi> By a Man's Eſtate, I underſtand all the Wealth and Riches, which in the time of his Reaſon he is Maſter of, and has at his own diſpoſal; whether it be by the kindneſs of his Relations, or the Fruits of his own In<g ref="char:EOLhyphen"/>duſtry.</p>
+               <p n="3">3 <hi>Def.</hi> By Happineſs, I underſtand all the Eaſe, and Satisfaction, and Pleaſures which a Man can procure by his Eſtate, and which do not come upon him without his own choice and forecaſt.</p>
+               <p n="4">4 <hi>Def.</hi> By Wiſdom, I underſtand a Sk<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> and Reſolution to procure all the Happineſ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> which is procurable by ſuch a Man.</p>
+               <p n="5">5 <hi>Def.</hi> By a Fool, I underſtand one wh<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> either does not know how, or does not re<g ref="char:EOLhyphen"/>ſolve to procure all the Happineſs which i<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> procurable by him.</p>
+               <p n="6">
+                  <pb n="2" facs="tcp:66055:3"/>6 <hi>Def.</hi> By Pleaſures, I mean all ſorts of innocent Diverſions, Converſation, Balls, Plays, Drinking, Gaming, Hunting, Hawking, and the like; according to Mens different Fan<g ref="char:EOLhyphen"/>cies and Inclinations.</p>
+            </div>
+            <div type="part">
+               <head>POSTULATA.</head>
+               <p n="1">1 <hi>Poſt.</hi> THat in order to the making a better Compariſon between things, it may be allowed us to fix upon ſome determinate number of Years, and to call that the apparent Age or Time of a Man.</p>
+               <p n="2">2 <hi>Poſt.</hi> That upon the ſame Account, it may be allowed us to fix upon a determinate ſumm of Money, and to call that, the apparent E<g ref="char:EOLhyphen"/>ſtate of a Man.</p>
+               <p n="3">3 <hi>Poſt.</hi> That it may be allowed us to ſub<g ref="char:EOLhyphen"/>duct from the apparent Time, and from the apparent Eſtate of a Man, all thoſe parts of his Age and Wealth which are not at his own diſpoſal.</p>
+               <p n="4">4 <hi>Poſt.</hi> That the value of time may be ex<g ref="char:EOLhyphen"/>preſſed by a proportionable value in Money.</p>
+               <p n="5">5 <hi>Poſt.</hi> That it may be allow'd us to aſ<g ref="char:EOLhyphen"/>ſign different pleaſures and ſatisfactions to the different Stages and Periods of a Man's life, and till a truer and more particular and ex<g ref="char:EOLhyphen"/>act one be offer'd, to make uſe of this follow<g ref="char:EOLhyphen"/>ing Scheme.</p>
+               <p>
+                  <pb n="3" facs="tcp:66055:4"/>
+                  <table>
+                     <row>
+                        <cell>All School-learning, Gram<g ref="char:EOLhyphen"/>mer, Arithmetick, Writing, <hi>&amp;c.</hi>
+                        </cell>
+                        <cell>1 Part</cell>
+                        <cell>from</cell>
+                        <cell>9 to 16</cell>
+                     </row>
+                     <row>
+                        <cell>All ſorts of Academical Learn<g ref="char:EOLhyphen"/>ing, Travels, and Pleaſures, and Exerciſes ſuitable to that period.</cell>
+                        <cell>2 P.</cell>
+                        <cell>from</cell>
+                        <cell>16 to 25</cell>
+                     </row>
+                     <row>
+                        <cell>Recreations, Courtſhips and Pleaſures ſuitable.</cell>
+                        <cell>3 P.</cell>
+                        <cell>from</cell>
+                        <cell>25 to 36</cell>
+                     </row>
+                     <row>
+                        <cell>Honours, Preferments and Pleaſures ſuitable.</cell>
+                        <cell>4 P.</cell>
+                        <cell>from</cell>
+                        <cell>36 to 49</cell>
+                     </row>
+                     <row>
+                        <cell>Increaſing of Riches, Power and Intereſt, and pleaſures ſui<g ref="char:EOLhyphen"/>table.</cell>
+                        <cell>5 P.</cell>
+                        <cell>from</cell>
+                        <cell>49 to 64</cell>
+                     </row>
+                  </table>
+               </p>
+            </div>
+            <div type="part">
+               <head>AXIOMS.</head>
+               <p n="1">1 <hi>Ax.</hi> Time is as neceſſary to enjoy Happi<g ref="char:EOLhyphen"/>neſs in, as an Eſtate is neceſſary to procure it.</p>
+               <p n="2">2 <hi>Ax.</hi> The ſame proportion that the whole Happineſs of a Man's Life bears to his whole Time and Eſtate, the ſame proportion do the diſtinct parts of his Happineſs bear to propor<g ref="char:EOLhyphen"/>tionable parts of his Time and Eſtate.</p>
+               <p n="3">3 <hi>Ax.</hi> Happineſs is worth as much Time, and as much Money, as are abſolutely neceſſa<g ref="char:EOLhyphen"/>ry to procure and to enjoy it.</p>
+               <p>
+                  <hi>Propoſition</hi> 1. If a Man do live from his Birth to the end of 64 Years, that is, has 64 appa<g ref="char:EOLhyphen"/>rent years, his real time or true age is but 32 years.</p>
+               <p>
+                  <hi>Demonſtration.</hi> Such a Man's time (by the
+<pb n="4" facs="tcp:66055:4"/>1ſt Definition) is only that part of his Life which he can employ as he himſelf judges moſt convenient after he is come to the uſe of Rea<g ref="char:EOLhyphen"/>ſon, and therefore (by the 3d Poſtulat.) I make theſe following ſubductions.</p>
+               <p>
+                  <table>
+                     <row>
+                        <cell role="label"> </cell>
+                        <cell role="label">Y.</cell>
+                        <cell role="label">M.</cell>
+                        <cell role="label">D.</cell>
+                        <cell role="label">H.</cell>
+                     </row>
+                     <row>
+                        <cell>He is to live.</cell>
+                        <cell>64</cell>
+                        <cell>00</cell>
+                        <cell>00</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>Subducted out of it, <hi>viz.</hi>
+                        </cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                     </row>
+                     <row>
+                        <cell>1 For Childhood, before he be<g ref="char:EOLhyphen"/>gins to uſe his Reaſon to any pur<g ref="char:EOLhyphen"/>poſe.</cell>
+                        <cell>64</cell>
+                        <cell>00</cell>
+                        <cell>00</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>2. For Sleep, at the rate of 8 hours in 24, becauſe he cannot employ it at he pleaſes in the purchaſe and enjoyments of ſatis<g ref="char:EOLhyphen"/>faction.</cell>
+                        <cell>09</cell>
+                        <cell>00</cell>
+                        <cell>00</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>3. For Devotion, reckoning that as God's time.</cell>
+                        <cell>18</cell>
+                        <cell>04</cell>
+                        <cell>00</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>4. For Sickneſs, ſuch as diſables him from taking ſatisfaction in the things of the World at leaſt.</cell>
+                        <cell>03</cell>
+                        <cell>06</cell>
+                        <cell>00</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>The whole ſumm of the De<g ref="char:EOLhyphen"/>ductions.</cell>
+                        <cell>01</cell>
+                        <cell>02</cell>
+                        <cell>00</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>The Remainder therefore which is the Man's time, is</cell>
+                        <cell>32</cell>
+                        <cell>00</cell>
+                        <cell>0</cell>
+                        <cell>0</cell>
+                     </row>
+                     <row>
+                        <cell>Which was to be Demonſtrated.</cell>
+                        <cell>32</cell>
+                        <cell>00</cell>
+                        <cell>0</cell>
+                        <cell>0</cell>
+                     </row>
+                  </table>
+               </p>
+               <p>
+                  <hi>Pro.</hi> 2. If ſuch a Man has an Eſtate of In<g ref="char:EOLhyphen"/>heritance of 120 <hi>l. per Ann.</hi> his whole real E<g ref="char:EOLhyphen"/>ſtate is 4940 <hi>l.</hi> Sterling.</p>
+               <p>
+                  <hi>Demonſtra.</hi> By the 2d Definition, his true E<g ref="char:EOLhyphen"/>ſtate is only ſo much of his Wealth, as in the time of his reaſon he has at his own diſpoſal,
+<pb n="5" facs="tcp:66055:5"/>and therefore (by the 3d Poſtulat.) I make the following ſubductions.</p>
+               <p>
+                  <table>
+                     <row>
+                        <cell role="label">The whole ſum ariſing from 120 <hi>l. per Ann.</hi> during the 64 years, without intereſt or any other im<g ref="char:EOLhyphen"/>provements amounts to.</cell>
+                        <cell role="label">
+                           <hi>l.</hi>
+                        </cell>
+                        <cell role="label">
+                           <hi>s.</hi>
+                        </cell>
+                        <cell role="label">
+                           <hi>d.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Subducted out of it, <hi>viz.</hi>
+                        </cell>
+                        <cell>7680</cell>
+                        <cell>00</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>1. For the 9 years of Childhood.</cell>
+                        <cell>1080</cell>
+                        <cell>00</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>2. For Charity being God's and the poors Money, and publick Taxes being the Magiſtrates and his Countries Money 1/100</cell>
+                        <cell>660</cell>
+                        <cell>00</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>3. For unavoidable expences in Sickneſs.</cell>
+                        <cell>0100</cell>
+                        <cell>00</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>4. For Food and Lodging juſt neceſſary.</cell>
+                        <cell>0480</cell>
+                        <cell>00</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>5. For Cloaths.</cell>
+                        <cell>0420</cell>
+                        <cell>00</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>The whole ſum of the Deductions</cell>
+                        <cell>
+                           <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                              <desc>•</desc>
+                           </gap>740</cell>
+                        <cell>00</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>Taken out of</cell>
+                        <cell>
+                           <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                              <desc>•</desc>
+                           </gap>680</cell>
+                        <cell>00</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>The Remainder is.</cell>
+                        <cell>4940</cell>
+                        <cell>00</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>Which is his real Eſtate</cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                     </row>
+                     <row>
+                        <cell>Which was to be Demonſtrated.</cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                     </row>
+                  </table>
+               </p>
+               <p>
+                  <hi>Prop.</hi> 3. The whole Happineſs of ſuch a Man's Life is worth 32 Years and 4940 <hi>l.</hi>
+               </p>
+               <p>
+                  <hi>Demonſtra.</hi> By the 3d Definition, the whole Happineſs of Man's Life is all the Eaſe, and Pleaſure, and Satisfactions which he can pro<g ref="char:EOLhyphen"/>cure by his Eſtate, during the whole time of his life. But by the 1ſt Propoſi. the time of ſuch a Man's life is 32 Years, and by the 2d
+<pb n="6" facs="tcp:66055:5"/>Prop. his Eſtate is 4940 <hi>l.</hi> and by the 3d Ax<g ref="char:EOLhyphen"/>iom, Happineſs is worth as much time, and as much Money as are abſolutely neceſſary to procure and to enjoyn it; therefore the whole Happineſs of ſuch a Man's Life is worth 32 Years and 4940 <hi>l.</hi>
+               </p>
+               <p>Which was to be Demonſtrated.</p>
+               <p>
+                  <hi>Prop.</hi> 4. Such a Man is wiſe if he does know how, and reſolves to procure as much happineſs as is worth 32 Years and 4940 <hi>l.</hi>
+               </p>
+               <p>
+                  <hi>Demonſtra.</hi> By the 4th Definition, Wiſdom is a Skill and Reſolution to procure all the Hap<g ref="char:EOLhyphen"/>pineſs which a Man can procure. But by the 3d Prop. all the Happineſs of ſuch a Man's life is worth 32 Years and 4940 <hi>l.</hi> therefore ſuch a Man is wiſe if he knows how and re<g ref="char:EOLhyphen"/>ſolves to procure as much Happineſs as is worth 32 Years and 4940 <hi>l.</hi>
+               </p>
+               <p>Which was to be Demonſtrated.</p>
+               <p>
+                  <hi>Prop.</hi> 5. Such a Man is a Fool, if he does not know and reſolve to procure as much Happineſs as is worth 32 Years and 4940 <hi>l.</hi>
+               </p>
+               <p>
+                  <hi>Demonſtra.</hi> By the 5th Definition, that Man is a Fool who does not know and reſolve to procure all the Happineſs which is procura<g ref="char:EOLhyphen"/>ble by him; but by the 3d Prop. all the Hap<g ref="char:EOLhyphen"/>pineſs procurable by ſuch a Man is worth 32 Years and 4940 <hi>l.</hi> therefore ſuch a Man is a Fool, if he does not know and reſolve to pro<g ref="char:EOLhyphen"/>cure as much Happineſs as is worth 32 Years and 4940 <hi>l.</hi>
+               </p>
+               <p>Which was to be Demonſtrated.</p>
+               <p>
+                  <pb n="7" facs="tcp:66055:6"/>
+                  <hi>Corollary.</hi> Hence it follows that ſuch a Man is a Fool, if he lays out upon any particular and determinate part of the Happineſs of his whole life, more of his 32 Years and 4940, than that part of his Happineſs has proporti<g ref="char:EOLhyphen"/>on to his whole Happineſs; for, by the 2d Axiom, the ſame proportion that the whole Happineſs of Man's life does bear to his whole Time and Eſtate, the ſame proportion do the diſtinct parts of his Happineſs bear to propor<g ref="char:EOLhyphen"/>tionable parts of his Time and Eſtate. Since therefore he is a Fool if he does not know and reſolve to procure as much Happineſs as is worth 32 Years and 4940 <hi>l.</hi> he muſt be a Fool if he gives more of his 32 Years and 4940 <hi>l.</hi> for any part of Happineſs, than that propor<g ref="char:EOLhyphen"/>tion which that part of Happineſs bears to the Happineſs of his whole life; <hi>Ergo,</hi> he is a Fool that lives faſt. <hi>(Quod ſaepious probatum eſt)</hi> which two faults we uſually tearm, living faſt, and Prodigality.</p>
+               <p>
+                  <hi>Prop.</hi> 6. Such a Man is more wiſe as he comes nearer the procuring as much Happi<g ref="char:EOLhyphen"/>neſs as is worth 32 Years and 4940 <hi>l.</hi> and the more a Fool as he comes ſhorter of procuring of it.</p>
+               <p>
+                  <hi>Demonſtra.</hi> This follows clearly from the 4th and 5th Propoſitions.</p>
+               <p>
+                  <hi>Problem.</hi> 1. How to expreſs the value of ſuch a Man's time in Money.</p>
+               <p>By the 4th Poſtulation, The value of Time may be expreſſed by a proportionable value
+<pb n="8" facs="tcp:66055:6"/>in Money; therefore ſince by the 1ſt Prop. the whole time of ſuch a Man is 32 Years, and by the 2d Prop. his whole Eſtate is 4940 <hi>l.</hi> it will follow that.</p>
+               <p>
+                  <table>
+                     <row>
+                        <cell role="label"> </cell>
+                        <cell role="label">
+                           <hi>l.</hi>
+                        </cell>
+                        <cell role="label">
+                           <hi>s.</hi>
+                        </cell>
+                        <cell role="label">
+                           <hi>d.</hi>
+                        </cell>
+                        <cell role="label">
+                           <hi>q.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>1. One of his Years is worth Sterl.</cell>
+                        <cell>154</cell>
+                        <cell>07</cell>
+                        <cell>06</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>2. One Month.</cell>
+                        <cell>12</cell>
+                        <cell>17</cell>
+                        <cell>03</cell>
+                        <cell>01</cell>
+                     </row>
+                     <row>
+                        <cell>3. One Day.</cell>
+                        <cell>00</cell>
+                        <cell>08</cell>
+                        <cell>05</cell>
+                        <cell>01</cell>
+                     </row>
+                     <row>
+                        <cell>4. One Hour about.</cell>
+                        <cell>00</cell>
+                        <cell>00</cell>
+                        <cell>04</cell>
+                        <cell>0¼</cell>
+                     </row>
+                     <row>
+                        <cell>5. One Minute.</cell>
+                        <cell>00</cell>
+                        <cell>00</cell>
+                        <cell>00</cell>
+                        <cell>3/10 of ¼</cell>
+                     </row>
+                  </table>
+               </p>
+               <p>
+                  <pb n="9" facs="tcp:66055:7"/>
+                  <table>
+                     <head>A Table ſhewing what common Money does amount to of ſuch a Man's Money.</head>
+                     <head type="sub">
+                        <hi>viz.</hi> 7680 <hi>l.</hi> 4940 <hi>l.</hi> 1 <hi>l.</hi>
+                     </head>
+                     <row>
+                        <cell role="label">com.</cell>
+                        <cell role="label" cols="4">ſuch a Mans</cell>
+                     </row>
+                     <row>
+                        <cell role="label">M.</cell>
+                        <cell role="label" cols="4">Money.</cell>
+                     </row>
+                     <row>
+                        <cell role="label">
+                           <hi>lib.</hi>
+                        </cell>
+                        <cell role="label">
+                           <hi>l.</hi>
+                        </cell>
+                        <cell role="label">
+                           <hi>s.</hi>
+                        </cell>
+                        <cell role="label">
+                           <hi>d.</hi>
+                        </cell>
+                        <cell role="label">
+                           <hi>q</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>1</cell>
+                        <cell>00</cell>
+                        <cell>12</cell>
+                        <cell>10</cell>
+                        <cell>1</cell>
+                     </row>
+                     <row>
+                        <cell>2</cell>
+                        <cell>01</cell>
+                        <cell>05</cell>
+                        <cell>08</cell>
+                        <cell>3</cell>
+                     </row>
+                     <row>
+                        <cell>3</cell>
+                        <cell>01</cell>
+                        <cell>18</cell>
+                        <cell>07</cell>
+                        <cell>0</cell>
+                     </row>
+                     <row>
+                        <cell>4</cell>
+                        <cell>02</cell>
+                        <cell>11</cell>
+                        <cell>05</cell>
+                        <cell>2</cell>
+                     </row>
+                     <row>
+                        <cell>5</cell>
+                        <cell>03</cell>
+                        <cell>04</cell>
+                        <cell>03</cell>
+                        <cell>3</cell>
+                     </row>
+                     <row>
+                        <cell>6</cell>
+                        <cell>03</cell>
+                        <cell>17</cell>
+                        <cell>02</cell>
+                        <cell>1</cell>
+                     </row>
+                     <row>
+                        <cell>7</cell>
+                        <cell>04</cell>
+                        <cell>10</cell>
+                        <cell>00</cell>
+                        <cell>2</cell>
+                     </row>
+                     <row>
+                        <cell>8</cell>
+                        <cell>05</cell>
+                        <cell>02</cell>
+                        <cell>11</cell>
+                        <cell>0</cell>
+                     </row>
+                     <row>
+                        <cell>9</cell>
+                        <cell>05</cell>
+                        <cell>15</cell>
+                        <cell>09</cell>
+                        <cell>1</cell>
+                     </row>
+                     <row>
+                        <cell>10</cell>
+                        <cell>06</cell>
+                        <cell>08</cell>
+                        <cell>07</cell>
+                        <cell>3</cell>
+                     </row>
+                     <row>
+                        <cell>20</cell>
+                        <cell>12</cell>
+                        <cell>17</cell>
+                        <cell>03</cell>
+                        <cell>2</cell>
+                     </row>
+                     <row>
+                        <cell>30</cell>
+                        <cell>19</cell>
+                        <cell>05</cell>
+                        <cell>11</cell>
+                        <cell>1</cell>
+                     </row>
+                     <row>
+                        <cell>40</cell>
+                        <cell>25</cell>
+                        <cell>14</cell>
+                        <cell>07</cell>
+                        <cell>0</cell>
+                     </row>
+                     <row>
+                        <cell>50</cell>
+                        <cell>32</cell>
+                        <cell>03</cell>
+                        <cell>02</cell>
+                        <cell>3</cell>
+                     </row>
+                     <row>
+                        <cell>60</cell>
+                        <cell>38</cell>
+                        <cell>11</cell>
+                        <cell>10</cell>
+                        <cell>2</cell>
+                     </row>
+                     <row>
+                        <cell>70</cell>
+                        <cell>45</cell>
+                        <cell>00</cell>
+                        <cell>06</cell>
+                        <cell>1</cell>
+                     </row>
+                     <row>
+                        <cell>80</cell>
+                        <cell>51</cell>
+                        <cell>09</cell>
+                        <cell>02</cell>
+                        <cell>0</cell>
+                     </row>
+                     <row>
+                        <cell>90</cell>
+                        <cell>57</cell>
+                        <cell>17</cell>
+                        <cell>09</cell>
+                        <cell>3</cell>
+                     </row>
+                     <row>
+                        <cell>100</cell>
+                        <cell>64</cell>
+                        <cell>06</cell>
+                        <cell>05</cell>
+                        <cell>2</cell>
+                     </row>
+                     <row>
+                        <cell>200</cell>
+                        <cell>128</cell>
+                        <cell>12</cell>
+                        <cell>11</cell>
+                        <cell>0</cell>
+                     </row>
+                     <row>
+                        <cell>300</cell>
+                        <cell>192</cell>
+                        <cell>19</cell>
+                        <cell>04</cell>
+                        <cell>2</cell>
+                     </row>
+                     <row>
+                        <cell>400</cell>
+                        <cell>257</cell>
+                        <cell>05</cell>
+                        <cell>10</cell>
+                        <cell>0</cell>
+                     </row>
+                     <row>
+                        <cell>500</cell>
+                        <cell>321</cell>
+                        <cell>12</cell>
+                        <cell>03</cell>
+                        <cell>2</cell>
+                     </row>
+                     <row>
+                        <cell>600</cell>
+                        <cell>385</cell>
+                        <cell>18</cell>
+                        <cell>09</cell>
+                        <cell>0</cell>
+                     </row>
+                     <row>
+                        <cell>700</cell>
+                        <cell>450</cell>
+                        <cell>05</cell>
+                        <cell>02</cell>
+                        <cell>2</cell>
+                     </row>
+                     <row>
+                        <cell>800</cell>
+                        <cell>514</cell>
+                        <cell>11</cell>
+                        <cell>08</cell>
+                        <cell>0</cell>
+                     </row>
+                     <row>
+                        <cell>900</cell>
+                        <cell>578</cell>
+                        <cell>18</cell>
+                        <cell>01</cell>
+                        <cell>2</cell>
+                     </row>
+                     <row>
+                        <cell>1000</cell>
+                        <cell>643</cell>
+                        <cell>04</cell>
+                        <cell>07</cell>
+                        <cell>0</cell>
+                     </row>
+                     <row>
+                        <cell>1000</cell>
+                        <cell>643</cell>
+                        <cell>04</cell>
+                        <cell>07</cell>
+                        <cell>0</cell>
+                     </row>
+                  </table>
+               </p>
+               <p>The Table is made ac<g ref="char:EOLhyphen"/>cording to this Proportion.</p>
+               <p>As the whole time be<g ref="char:EOLhyphen"/>tween the beginning of the 2d Period, and the end of his Life, viz. 55 Years is to his Time, viz. 32 Years; ſo is one Year to 212 days of his real time, and the va<g ref="char:EOLhyphen"/>lue 89 l. 16 s. &amp;c.</p>
+               <p>Lemma.</p>
+               <p>That in the following Propoſitions, allow<g ref="char:EOLhyphen"/>ances muſt be made for the different Inclina<g ref="char:EOLhyphen"/>tions
+<pb n="10" facs="tcp:66055:7"/>and fancies of Men and expectations in the World. But what is laid down determi<g ref="char:EOLhyphen"/>nately, may now paſs for a good general mean.</p>
+               <p>
+                  <hi>Prop.</hi> 7. Such a Man is a Fool, if he lay out upon what Happineſs may be included within the firſt period above 4 years and 26 days 13 hours of his time, and 628 <hi>l.</hi> 16 <hi>s.</hi> 6 <hi>d.</hi> of his Money.</p>
+               <p>
+                  <hi>Demonſtra.</hi> By the Corall. from the 5th Prop. ſuch a Man is a fool if he lays out upon any particular and determinate part of the Happineſs of his whole life, more of his 32 years and 4940 <hi>l.</hi> than that part of his Hap<g ref="char:EOLhyphen"/>pineſs has proportion to his whole Happineſs. But by the Scheme in the 5th Poſtula. it ap<g ref="char:EOLhyphen"/>pears, that the Happineſs of the firſt period is anſwerable to 7 common years, and this a<g ref="char:EOLhyphen"/>mounts to 4 years and 26 days 13 hours of his time, and 628 <hi>l.</hi> 16 <hi>s.</hi> 6 <hi>d.</hi> of his Money; there fore ſuch a Man is a fool if he lay out upon the 1ſt period, above 4 years and 26 days and 12 hours of his time, and above 628 <hi>l.</hi> 17 <hi>s.</hi> 6 <hi>s.</hi> of his Money. Which was to be Demonſt.</p>
+               <p>
+                  <hi>Prop.</hi> 8. Such a Man is a fool if he lays out upon the Happineſs of the 2d period above 5 years and 86 days 7 hours of his time, and 808 <hi>l.</hi> 09 <hi>s.</hi> 9 <hi>d.</hi> of his Money.</p>
+               <p>The Demonſtration is the ſame as of the 7th Prop.</p>
+               <p>
+                  <pb n="11" facs="tcp:66055:8"/>
+                  <hi>Prop.</hi> 9. Or if he lays out upon the Happi<g ref="char:EOLhyphen"/>neſs of the 3d period, above 6 Years and 146 days 8 hours of his time, and above 988 <hi>l.</hi> 03 <hi>s.</hi> 01 <hi>d.</hi> ¼ of his Money.</p>
+               <p>The Demonſtration is the ſame as that of the 7th Prop.</p>
+               <p>
+                  <hi>Prop.</hi> 10. Or if he lays our upon Honours, Preferments and Pleaſures, ſuitable to the 4th period above 7 years and 206 days 2 hours of his time, and above 1167 <hi>l.</hi> 16 <hi>s.</hi> 4 <hi>d.</hi> ¾ of his Money. The ſame way Demonſtrated.</p>
+               <p>
+                  <hi>Prop.</hi> 11. Or if upon the Happineſs of the 5th and laſt period above 8 years and 265 days 21 hours of his time, and above 1347 <hi>l.</hi> 09 <hi>s.</hi> 8 <hi>d.</hi> ¼ of his Money. The ſame Demonſtration</p>
+               <p>
+                  <hi>Problem</hi> 2. How to expreſs the real value of an acquired Eſtate.</p>
+               <p>If ſuch a Man by that time he is 30 years of Age, having diſcharg'd all former Debts and Incumbrances, has by his labour acquired juſt 120 <hi>l. per Ann.</hi> and is to live to 64, his Eſtate is 2245 <hi>l.</hi> 08 <hi>s.</hi> 0 <hi>d.</hi>
+               </p>
+               <p>
+                  <table>
+                     <row>
+                        <cell role="label">For 120 <hi>l. per Ann.</hi> the other 34 Years amounts to.</cell>
+                        <cell role="label">
+                           <hi>l.</hi>
+                        </cell>
+                        <cell role="label">
+                           <hi>s.</hi>
+                        </cell>
+                        <cell role="label">
+                           <hi>d.</hi>
+                        </cell>
+                     </row>
+                     <row>
+                        <cell>Out of which (as Prop. 2.) muſt be ſubducted.</cell>
+                        <cell>4080</cell>
+                        <cell>00</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>1. For Charity.</cell>
+                        <cell>408</cell>
+                        <cell>00</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>2. For Sickneſs about.</cell>
+                        <cell>172</cell>
+                        <cell>00</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>3. Food and Lodging.</cell>
+                        <cell>292</cell>
+                        <cell>00</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>4. For Cloaths.</cell>
+                        <cell>252</cell>
+                        <cell>00</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>5. For the value of his time between the 9th and 30th Year
+<pb n="12" facs="tcp:66055:8"/>of his Age, ſuppoſing that by the labour, to acquire that Eſtate 6 Hours every day came to be not at his own diſpoſal, by the 1ſt Problem about.</cell>
+                        <cell>810</cell>
+                        <cell>12</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>The ſum of which Deduction.</cell>
+                        <cell>1834</cell>
+                        <cell>12</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>Taken out of.</cell>
+                        <cell>4080</cell>
+                        <cell>00</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>The Remainder.</cell>
+                        <cell>2245</cell>
+                        <cell>08</cell>
+                        <cell>00</cell>
+                     </row>
+                     <row>
+                        <cell>Hence appears the true diffe<g ref="char:EOLhyphen"/>rence between an acquired E<g ref="char:EOLhyphen"/>ſtate, and an Eſtate of Inheri<g ref="char:EOLhyphen"/>tance, the time ſpent in acquir<g ref="char:EOLhyphen"/>ing it, being converted into Mo<g ref="char:EOLhyphen"/>ney, in the above caſe being.</cell>
+                        <cell>810</cell>
+                        <cell>12</cell>
+                        <cell>00</cell>
+                     </row>
+                  </table>
+               </p>
+               <p>
+                  <hi>Problem</hi> 3. To apply the foregoing Propoſitions to particular uſes, and for inſtance, by this method to find out the real value of an Horſe.</p>
+               <p>We proceed by theſe Degrees.</p>
+               <p n="1">1. We ſet down the Man's Age who is to buy it, ſup<g ref="char:EOLhyphen"/>poſe 33.</p>
+               <p n="2">2. The Period which it falls in here 'tis the 3d.</p>
+               <p n="3">3. The remainder of the Money which the Man has to ſpend in the remainder of the period, which is thus found.</p>
+               <p>By the 5th Poſtulation, the common years of the 3d Period are 11, and by the 9th Prop. the Money to be ſpent in thoſe 11 Years is 988; therefore ſince 8 years of the 11 are now ſuppoſed to be paſt, valued at 718 <hi>l.</hi> 6/11 not troubling our ſelves with the Fracti<g ref="char:EOLhyphen"/>ons; we ſubduuct the Money already ſpent, <hi>viz.</hi> the 718 <hi>l.</hi> out of 988 <hi>l.</hi> the whole, and the remainder will be 270 <hi>l.</hi> which is the ſum that is at his diſpoſal in thoſe 3 years.</p>
+               <p n="4">4. Suppoſe an indifferent Horſe, and the Market Rate to be 10 <hi>l.</hi>
+               </p>
+               <p n="5">
+                  <pb n="13" facs="tcp:66055:9"/>5. Suppoſe him (bating Accidents) to be ſervicea<g ref="char:EOLhyphen"/>ble 10 Years.</p>
+               <p n="6">6. Suppoſe the yearly charge of keeping him to be at leaſt 5 <hi>l.</hi> and ſo the Money to be laid out upon him will be 60.</p>
+               <p n="7">7. That the Pleaſure, Profit, or Service which that Horſe muſt do ſuch a Man, that he may be no loſer by him, muſt be worth of ſuch a Man's Money 60 <hi>l.</hi> in 10 years, (that is 6 <hi>l. per Ann.</hi>) and ſo for the 3 years of the period which the Man is then in, he muſt be worth 18 <hi>l.</hi> of his Money (for 10 <hi>y.</hi> 60 <hi>l.</hi> 3 <hi>y.</hi> 18 <hi>l.</hi>) and in the period he muſt be worth 42 <hi>l.</hi> being the remainder, and therefore.</p>
+               <p n="8">8. The Man muſt conſider what occaſion he has for 270 <hi>l.</hi> in thoſe 3 years, and whether he can wiſely al<g ref="char:EOLhyphen"/>low 18 <hi>l.</hi> being 1/15 of the value of the Happineſs of the 3 years for it; and whether he may allow it or no, he may find by the Corollary of the 5th Propoſition.</p>
+               <p>If he finds that he muſt not allow ſo much, then by making ſubductions for what remains to be ſubducted, after taking out 14/15 from 270 <hi>l.</hi> the remainder will be the exact ſum which he may afford for the Horſe, and that will be to him the real value of it.</p>
+               <p>That is to ſay, If he finds, for inſtance, that beſides 252 <hi>l.</hi> which is 14/15 of 270 <hi>l.</hi> he ſhall have occaſion to lay out 10 <hi>l.</hi> upon other things; let him ſubduct the 262 <hi>l.</hi> from 270 <hi>l.</hi> and the remainder being 8 <hi>l.</hi> will be the real value of the Horſe, after the ſame manner the value of a Servant, Book, Garment, Watch, <hi>&amp;c.</hi> may be found out.</p>
+            </div>
+            <epigraph>
+               <q>Eſt aliquid prodire tenus.</q>
+            </epigraph>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="note">
+            <p>
+               <hi>Note,</hi> That Errata's in the Calculation, may be eaſi<g ref="char:EOLhyphen"/>ly mended by the Reader in obſerving the inferences of the Reaſonings.</p>
+            <pb facs="tcp:66055:9"/>
+         </div>
+      </back>
+   </text>
+</TEI>
